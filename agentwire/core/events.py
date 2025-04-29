@@ -1,5 +1,5 @@
 """
-This module contains the event types for the Agent Wire Protocol Python SDK.
+This module contains the event types for the Agent User Interaction Protocol Python SDK.
 """
 
 from enum import Enum
@@ -33,7 +33,7 @@ class EventType(str, Enum):
 
 class BaseEvent(ConfiguredBaseModel):
     """
-    Base event for all events in the Agent Wire Protocol.
+    Base event for all events in the Agent User Interaction Protocol.
     """
     type: EventType
     timestamp: Optional[int] = None

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "agentwire"
+name = "ag_ui"
 version = "0.1.4"
 description = ""
 authors = ["Markus Ecker <markus.ecker@gmail.com>"]

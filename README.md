@@ -1,1 +1,1 @@
-# Agent Wire Protocol Python SDK
+# Agent User Interaction Protocol Python SDK

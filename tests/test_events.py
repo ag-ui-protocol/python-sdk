@@ -3,8 +3,8 @@ import json
 from datetime import datetime
 from pydantic import ValidationError, TypeAdapter
 
-from agentwire.core.types import Message, UserMessage, AssistantMessage, FunctionCall, ToolCall
-from agentwire.core.events import (
+from ag_ui.core.types import Message, UserMessage, AssistantMessage, FunctionCall, ToolCall
+from ag_ui.core.events import (
     EventType,
     BaseEvent,
     TextMessageStartEvent,

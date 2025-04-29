@@ -2,7 +2,7 @@ import unittest
 from pydantic import ValidationError
 from pydantic import TypeAdapter
 
-from agentwire.core.types import (
+from ag_ui.core.types import (
     FunctionCall,
     ToolCall,
     DeveloperMessage,

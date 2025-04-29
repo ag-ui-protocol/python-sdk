@@ -2,13 +2,13 @@
 This module contains the EventEncoder class
 """
 
-from agentwire.core.events import BaseEvent
+from ag_ui.core.events import BaseEvent
 
-AGENTWIRE_MEDIA_TYPE = "application/vnd.agentwire.event+proto"
+AGUI_MEDIA_TYPE = "application/vnd.ag-ui.event+proto"
 
 class EventEncoder:
     """
-    Encodes Agent Wire events.
+    Encodes Agent User Interaction events.
     """
     def __init__(self, accept: str = None):
         pass

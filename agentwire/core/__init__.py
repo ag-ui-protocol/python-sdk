@@ -1,8 +1,8 @@
 """
-This module contains the core types and events for the Agent Wire Protocol.
+This module contains the core types and events for the Agent User Interaction Protocol.
 """
 
-from agentwire.core.events import (
+from ag_ui.core.events import (
     EventType,
     BaseEvent,
     TextMessageStartEvent,
@@ -24,7 +24,7 @@ from agentwire.core.events import (
     Event
 )
 
-from agentwire.core.types import (
+from ag_ui.core.types import (
     FunctionCall,
     ToolCall,
     BaseMessage,

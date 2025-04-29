@@ -1,5 +1,5 @@
 """
-This module contains the types for the Agent Wire Protocol Python SDK.
+This module contains the types for the Agent User Interaction Protocol Python SDK.
 """
 
 from typing import Any, List, Literal, Optional, Union, Annotated

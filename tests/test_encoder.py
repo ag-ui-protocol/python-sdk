@@ -2,8 +2,8 @@ import unittest
 import json
 from datetime import datetime
 
-from agentwire.encoder.encoder import EventEncoder, AGENTWIRE_MEDIA_TYPE
-from agentwire.core.events import BaseEvent, EventType, TextMessageContentEvent, ToolCallStartEvent
+from ag_ui.encoder.encoder import EventEncoder, AGUI_MEDIA_TYPE
+from ag_ui.core.events import BaseEvent, EventType, TextMessageContentEvent, ToolCallStartEvent
 
 
 class TestEventEncoder(unittest.TestCase):
@@ -15,7 +15,7 @@ class TestEventEncoder(unittest.TestCase):
         self.assertIsInstance(encoder, EventEncoder)
 
         # Test with accept parameter
-        encoder_with_accept = EventEncoder(accept=AGENTWIRE_MEDIA_TYPE)
+        encoder_with_accept = EventEncoder(accept=AGUI_MEDIA_TYPE)
         self.assertIsInstance(encoder_with_accept, EventEncoder)
 
     def test_encode_method(self):
